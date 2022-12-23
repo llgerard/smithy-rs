@@ -15,7 +15,7 @@ use com.aws.example#CheckHealth
 /// The Pokémon Service allows you to retrieve information about Pokémon species.
 @title("Pokémon Service")
 @restJson1
-service PokemonService {
+service PPPokemonService {
     version: "2021-12-01",
     resources: [PokemonSpecies],
     operations: [
